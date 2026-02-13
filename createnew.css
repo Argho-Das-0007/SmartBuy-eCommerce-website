@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(login.png);
+    background-color: #f9f9f9;
+}
+
+.container {
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+}
+
+header h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+header span {
+    font-weight: normal;
+}
+
+.signup-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup-box h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.signup-box p {
+    font-size: 14px;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d714c3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color:purple;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    flex: 1;
+    margin: 0 5px;
+    background-color: #fff;
+    color: purple;
+    border: 1px solid white;
+    font-size: 14px;
+}
+
+.buttons button:hover {
+    background-color:purple;
+    color: white;
+}
+
+.signin-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signin-text a {
+    color:purple;
+    text-decoration: none;
+}
+
+.signin-text a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .dashboard {
+            display: flex;
+            gap: 10px;
+        }
+        .card {
+            flex: 1;
+            padding: 20px;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        .blue { background: #2196F3; }
+        .green { background: #4CAF50; }
+        .yellow { background: #FFC107; }
+        .red { background: #F44336; }
+    </style>
+</head>
+<body>
+    <h2>Dashboard</h2>
+    <div class="dashboard">
+        <div class="card blue">
+            <h3>150</h3>
+            <p>New Orders</p>
+        </div>
+        <div class="card green">
+            <h3>53%</h3>
+            <p>Revenue Rate</p>
+        </div>
+        <div class="card yellow">
+            <h3>44</h3>
+            <p>New Registrations</p>
+        </div>
+        <div class="card red">
+            <h3>65</h3>
+            <p>Unique Visitors</p>
+        </div>
+    </div>
+</body>
+</html>
